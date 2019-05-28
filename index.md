@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-title: "RID 3000"
+title: "Rotary International District 3000"
 excerpt: "Rotaract District Organisation 3000"
 ---
 # We are building something awesome
