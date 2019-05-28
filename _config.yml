@@ -1,0 +1,43 @@
+# Site wide configuration
+
+title: "Rotaract 3000"
+description: "Rotary Internationl District 3000"
+#if you modify locale please have a look at _data/messages.yml too
+locale: en
+#for meta name="author" :
+author: 
+timezone: Asia/Kolkata
+
+#Target date in UTC / GMT
+countdown:
+  theme: red
+  year: 2019
+  month: 5
+  day: 30
+  hour: 3
+  minute: 30
+
+# Site owner
+owner:
+  name:
+  email:
+  twitter:
+  google-plus:
+  instagramm:
+  #Aboutlink = German "Impressum", provide url and caption (eg "Impressum")
+  aboutlink:
+    url:
+    caption:
+
+
+# Jekyll configuration
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
