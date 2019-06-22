@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Promoting peace",
+    "description": "Rotary encourages conversations to foster understanding within and across cultures. We train adults and young leaders to prevent and mediate conflict and help refugees who have fled dangerous areas.",
+    "image": "images/features/peace.svg"
+  },
+  {
+    "title": "Fighting disease",
+    "description": "We educate and equip communities to stop the spread of life-threatening diseases like polio, HIV/AIDS, and malaria. We improve and expand access to low-cost and free health care in developing areas.",
+    "image": "images/features/fighting_d.svg"
+  },
+  {
+    "title": "Providing clean water, sanitation, and hygiene",
+    "description": "We support local solutions to bring clean water, sanitation, and hygiene to more people every day. We don’t just build wells and walk away. We share our expertise with community leaders and educators to make sure our projects succeed long-term.",
+    "image": "images/features/water.svg"
+  },
+  {
+    "title": "Saving mothers and children",
+    "description": "Nearly 6 million children under the age of five die each year because of malnutrition, poor health care, and inadequate sanitation. We expand access to quality care, so mothers and their children can live and grow stronger.",
+    "image": "images/features/mother_child.svg"
+  },
+  {
+    "title": "Supporting education",
+    "description": "More than 775 million people over the age of 15 are illiterate. Our goal is to strengthen the capacity of communities to support basic education and literacy, reduce gender disparity in education, and increase adult literacy.",
+    "image": "images/features/education.svg"
+  },
+  {
+    "title": "Growing local economies",
+    "description": "We carry out service projects that enhance economic and community development and create opportunities for decent and productive work for young and old. We also strengthen local entrepreneurs and community leaders, particularly women, in impoverished communities.",
+    "image": "images/features/economics.svg"
+  }
+]

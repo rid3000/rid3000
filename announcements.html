@@ -1,0 +1,36 @@
+---
+title: Announcements
+layout: default
+bodyClass: page-services-list
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>Announcemnts</h1>
+        <p>
+          Keep yourselves updated with the latest news from DRR's Desk
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container pb-6">
+  <div class="row">
+    {% for announcement in site.announcements %}
+    <div class="col-12 col-md-4 mb-1">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">
+            <a href="{{site.baseurl}}{{ announcement.url }}">{{ announcement.title }}</a>
+          </h2>
+          <p class="text-muted">{{announcement.date | date: "%-d %B %Y"}}</p>
+          {{ announcement.content | markdownify | strip_html | truncate: 100 }}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
