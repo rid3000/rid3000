@@ -1,0 +1,26 @@
+---
+title: Downloads
+layout: default
+bodyClass: page-contact
+---
+
+<div class="intro intro-small">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>Downloads</h1>
+        <p>One place for all your resources.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% for doc in site.static_files %}
+{% if doc.path contains 'docs/' %}
+<div class="container pt-2">
+      <div>{{ doc.name }}</div>
+      <a href="{{ site.baseurl }}{{ doc.path }}" class="button" target="_blank">View</a>
+      <a href="{{ site.baseurl }}{{ doc.path }}" class="button" download="{{doc.name}}">Download</a>
+</div>
+{% endif %}
+{% endfor %}             
