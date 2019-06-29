@@ -1,7 +1,9 @@
 ---
-title: DISTRICT TEAM
+title: PRESIDENT AND SECRETARY DATA FORM
 date: '2019-06-30'
 ---
-KNOW YOUR CLUB (For RI registration)
+PRESIDENT AND SECRETARY DATA FORM
 
-<https://docs.google.com/forms/d/e/1FAIpQLSfgJ40BlbP9htlmWpH_lRMjSE7cK_EpDYCPcVrOjt1czcfUNg/viewform?usp=sf_link>
+Link
+
+https://goo.gl/forms/AVraTH9N7nHtgOFA2
