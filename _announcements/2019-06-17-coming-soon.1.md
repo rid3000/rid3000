@@ -1,8 +1,7 @@
 ---
-title: 'Coming Soon'
-date: 2019-06-17
+title: DISTRICT TEAM
+date: '2019-06-30'
 ---
+KNOW YOUR CLUB (For RI registration)
 
-Our wonderful website is comming.
-
-We are building something awesome, our good friends are building it fast.
+<https://docs.google.com/forms/d/e/1FAIpQLSfgJ40BlbP9htlmWpH_lRMjSE7cK_EpDYCPcVrOjt1czcfUNg/viewform?usp=sf_link>
