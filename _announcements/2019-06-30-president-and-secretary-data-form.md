@@ -1,5 +1,5 @@
 ---
-title: 'PRESIDENT AND SECRETARY (Data Form) '
+title: 'PRESIDENT AND SECRETARY (Data Form)'
 date: '2019-06-30'
 ---
 PRESIDENT AND SECRETARY (Data Form) 
