@@ -19,7 +19,8 @@ bodyClass: page-team-list
 
 <div class="container pb-6">
   <div class="row">
-    {% for team in site.team %}
+    {% assign team_m = site.team | sort: 'order' %}
+    {% for team in team_m %}
     <div class="col-12 col-md-6 mb-1">
       <div class="team team-summary">
         {% if team.image %}
@@ -42,5 +43,6 @@ bodyClass: page-team-list
       </div>
     </div>
     {% endfor %}
+    {% assign team_m = null %}
   </div>
 </div>

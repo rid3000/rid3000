@@ -19,7 +19,8 @@ bodyClass: page-services-list
 
 <div class="container pb-6">
   <div class="row">
-    {% for announcement in site.announcements %}
+    {% assign announcements = site.announcements | sort: 'date' | reverse %}
+    {% for announcement in announcements %}
     <div class="col-12 col-md-4 mb-1">
       <div class="service service-summary">
         <div class="service-content">
@@ -32,5 +33,6 @@ bodyClass: page-services-list
       </div>
     </div>
     {% endfor %}
+    {% assign announcements = null %}
   </div>
 </div>
