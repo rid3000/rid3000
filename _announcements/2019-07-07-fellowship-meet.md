@@ -21,11 +21,7 @@ DRR (2019-20)
 
 
 \#Rotaract
-
 \#RID3000
-
 \#Teamgaruda
-
 \#RDO1920
-
 \#Believeinyourself

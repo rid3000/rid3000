@@ -11,11 +11,8 @@ My hearty wishes to Rotaractors who are all attended the Nimirndhu Nil Hosted by
 ![](/assets/images/announcement_posts/pets-sets.jpeg)
 
 \#Year1920
-
 \#PETS&SETS,DOTS
-
 \#Grand Success
-
 \#Team Garuda
 
 Yours in Rotaract Service
