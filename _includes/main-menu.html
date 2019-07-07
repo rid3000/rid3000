@@ -1,11 +1,75 @@
 <div id="main-menu" class="main-menu">
   <ul>
     <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
-    <li><a href="{{site.baseurl}}/drr/" class="{% if page.url contains 'drr' %}current{% endif %}">About DRR</a></li>
+    <li class="dropdown">
+      <a class="dropbtn">About</a>
+      <div class="dropdown-content">
+        <a href="{{site.baseurl}}/drr/" class="{% if page.url contains 'drr' %}current{% endif %}">DRR</a>
+        <a href="{{site.baseurl}}/dg/">DG</a>
+      </div>
+    </li>
     <li><a href="{{site.baseurl}}/team/" class="{% if page.url contains 'team' %}current{% endif %}">Team</a></li>
-    <li><a href="{{site.baseurl}}/announcements/" class="{% if page.url contains 'services' %}current{% endif %}">Announcements</a></li>
+    <li><a href="{{site.baseurl}}/announcements/"
+        class="{% if page.url contains 'services' %}current{% endif %}">Announcements</a></li>
     <!-- <li><a href="{{site.baseurl}}/testimonials/" class="{% if page.url contains 'testimonials' %}current{% endif %}">Testimonials</a></li> -->
     <li><a href="https://forms.gle/FySxBfA4hwxtH7TR6" target="_blank">Reporting</a></li>
-    <li><a href="{{site.baseurl}}/downloads/" class="{% if page.url contains 'downloads' %}current{% endif %}">Downloads</a></li>
+    <li><a href="{{site.baseurl}}/downloads/"
+        class="{% if page.url contains 'downloads' %}current{% endif %}">Downloads</a></li>
   </ul>
 </div>
+<style>
+  /* Style The Dropdown Button */
+  /* .dropbtn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    } */
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #1c3ed3;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #1c3ed3;
+    color: white;
+  }
+
+  .dropdown:hover {
+    color: white;
+  }
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #1c3ed3;
+    color: white;
+  }
+</style>
