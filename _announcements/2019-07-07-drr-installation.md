@@ -1,6 +1,6 @@
 ---
 title: DRR Installation
-date: '2019-07-07'
+date: '2019-06-30'
 ---
 **Believe in yourself** , take on your challenges, dig deep within yourself to conquer fears. Never let anyone bring you down. You got to keep going.
 
