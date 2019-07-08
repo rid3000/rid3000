@@ -1,6 +1,6 @@
 ---
 title: FELLOWSHIP MEET
-date: '2019-07-07'
+date: '2019-06-23'
 ---
 Rotaract District Organisation
 
